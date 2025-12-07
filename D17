@@ -1,0 +1,59 @@
+import javax.swing.*;
+
+public class D17 {
+    public static void main(String[] args) {
+        int[] arr = {8, 12, 4, 20, 15};
+
+        int max = Integer.MIN_VALUE;
+        int second = Integer.MIN_VALUE;
+
+        for (int n : arr) {
+            if (n > max) {
+                second = max;
+                max = n;
+            } else if (n > second && n != max) {
+                second = n;
+            }
+        }
+
+        JOptionPane.showMessageDialog(null, "Second highest = " + second);
+    }
+}
+You sent
+Sa GitHub
+John Lyndelo
+John Lyndelo
+Toploka ang Profile tas pangitaa ang repository
+John Lyndelo
+pag tuplok nimo sa repository new daw dayun
+John Lyndelo
+butang ang repository name daw Create
+John Lyndelo
+tas Pangitaa ang Create file
+You sent
+Okay thankyou
+John Lyndelo
+import javax.swing.*;
+
+public class etinadhana {
+    public static void main(String[] args) {
+        int[] arr = {4, 2, 5, 7, 2, 9};
+        boolean dup = false;
+
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[i] == arr[j]) {
+                    dup = true;
+                    break;
+                }
+            }
+        }
+
+        JOptionPane.showMessageDialog(null, "Contains duplicates? " + dup);
+    }
+}
+You sent
+You sent
+duha na ka twodaks?
+You sent
+or sumpay
